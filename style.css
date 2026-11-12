@@ -1,0 +1,101 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #F5EEE7;
+    color: #49352B;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Área principal */
+.container {
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    padding: 35px 25px;
+}
+
+/* Logo */
+.container img {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+
+/* Nome */
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #654A3C;
+}
+
+/* Descrição */
+p {
+    font-size: 16px;
+    color: #9A7864;
+    letter-spacing: 1px;
+}
+
+
+/* Área dos botões */
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+/* Botões */
+.botao {
+    display: block;
+    background-color: #846653;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.botao:hover {
+    background-color: #654A3C;
+    transform: translateY(-2px);
+}
+
+
+/* Personalização dos botões */
+.botao {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 12px rgba(73, 53, 43, 0.10);
+}
+
+.botao span {
+    font-size: 19px;
+    margin-right: 8px;
+}
+
+.botao:hover {
+    background-color: #6D5141;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(73, 53, 43, 0.18);
+}
+
+/* Rolagem suave */
+html {
+    scroll-behavior: smooth;
+}
